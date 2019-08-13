@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Asik</title>
+    <link rel="stylesheet" type="text/css" href="{% static "vendor/bootstrap/bootstrap.css" %}">
+
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SP Gaya Belajar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m1-auto">
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Selamat Datang</h1>
+        <h3>di Sistem Pakar Modulitas Gaya Belajar</h3>
+        <p>Ini adalah Home Page</p>
+    </div>
+    <script src="{% static "vendor/jquery/jquery.js" %}" type="text/javascript"></script>
+    <script src="{% static "vendor/popper/popper.js" %}" type="text/javascript"></script>
+    <script src="{% static "vendor/bootstrap/bootstrap.js" %}" type="text/javascript">
+    </script>
+</body>
+</html>
